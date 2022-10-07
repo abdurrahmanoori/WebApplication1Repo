@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\khuba\\Desktop\\WebApplication1Repo-master\\WebApplication1\\WebApplication1.csproj": {}
+    "C:\\Users\\Abdurrahman\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\khuba\\Desktop\\WebApplication1Repo-master\\WebApplication1\\WebApplication1.csproj": {
+    "C:\\Users\\Abdurrahman\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\khuba\\Desktop\\WebApplication1Repo-master\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "C:\\Users\\Abdurrahman\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\Users\\khuba\\Desktop\\WebApplication1Repo-master\\WebApplication1\\WebApplication1.csproj",
-        "packagesPath": "C:\\Users\\khuba\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\khuba\\Desktop\\WebApplication1Repo-master\\WebApplication1\\obj\\",
+        "projectPath": "C:\\Users\\Abdurrahman\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "packagesPath": "C:\\Users\\Abdurrahman\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Abdurrahman\\source\\repos\\WebApplication1\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\khuba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Abdurrahman\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +26,6 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
-            "targetAlias": "netcoreapp3.0",
             "projectReferences": {}
           }
         },
@@ -38,7 +37,26 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
-          "targetAlias": "netcoreapp3.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
